@@ -74,4 +74,9 @@ This study demonstrates:
 - Implementation of nonlinear equality constraints
 - Application of evolutionary algorithms
 - Interpretation of Pareto optimality
-- Comparison between single-objective and multi-objective GA approaches 
+- Comparison between single-objective and multi-objective GA approaches
+- Sensitivity to GA parameters:
+
+PopulationSize
+
+MaxGenerations
