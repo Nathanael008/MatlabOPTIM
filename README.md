@@ -58,9 +58,10 @@ The multi-objective study illustrates the trade-off structure and demonstrates t
 
 # 5. MATLAB Requirements
 
-MATLAB
 - Global Optimization Toolbox
+
 Functions used:
+
 - ga
 - gamultiobj
 - Nonlinear constraint functions
