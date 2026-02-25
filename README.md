@@ -50,9 +50,7 @@ Uses MATLAB’s gamultiobj function
 
 The optimization results confirm the analytical solution of the problem:
 
-𝑑
-=
-ℎ
+𝑑 = ℎ
 
 This indicates that the minimum surface area configuration for a fixed volume cylinder occurs when the height equals the diameter.
 
