@@ -22,7 +22,7 @@ Objective:  Minimum surface area @ constant Volume condition
 
 # 3. Approach
 
-# 3.1 Single-Objective Optimization (ga)
+# 3.1. Single-Objective Optimization (ga)
 
 - Objective: Minimize surface area 
 - Constraint: Fixed volume
@@ -31,10 +31,10 @@ Objective:  Minimum surface area @ constant Volume condition
 
 Uses MATLAB’s ga function
 
-- Produces one optimal solution-
+- Produces one optimal solution
 - Verifies analytical result (optimal when d = h)
 
-# 3.2 Multi-Objective Optimization (gamultiobj)
+# 3.2. Multi-Objective Optimization (gamultiobj)
 
 - Objective 1: Minimize surface area
 - Objective 2: Maintain volume (or minimize volume deviation)
@@ -45,3 +45,33 @@ Uses MATLAB’s gamultiobj function
 - Produces a Pareto front
 - Shows trade-off between geometry parameters
 - Visualizes Pareto front and Pareto set
+
+# 4. Results
+
+Optimal solution confirms:
+The optimization results confirm the analytical solution of the problem:
+d=h
+This indicates that the minimum surface area configuration for a fixed volume cylinder occurs when the height equals the diameter.
+The multi-objective study illustrates the trade-off structure and demonstrates the effectiveness of evolutionary algorithms in identifying optimal solution sets.
+
+# 5. MATLAB Requirements
+
+MATLAB
+
+- Global Optimization Toolbox
+
+Functions used:
+
+- ga
+- gamultiobj
+- Nonlinear constraint functions
+- Pareto front visualization
+
+# 6. Learning Outcomes
+
+This study demonstrates:
+- Formulation of constrained optimization problems
+- Implementation of nonlinear equality constraints
+- Application of evolutionary algorithms
+- Interpretation of Pareto optimality
+- Comparison between single-objective and multi-objective GA approaches 
