@@ -53,7 +53,6 @@ The optimization results confirm the analytical solution of the problem:
 𝑑
 =
 ℎ
-d=h
 
 This indicates that the minimum surface area configuration for a fixed volume cylinder occurs when the height equals the diameter.
 
