@@ -76,7 +76,5 @@ This study demonstrates:
 - Interpretation of Pareto optimality
 - Comparison between single-objective and multi-objective GA approaches
 - Sensitivity to GA parameters:
-
-PopulationSize
-
-MaxGenerations
+     - PopulationSize
+     - MaxGenerations
